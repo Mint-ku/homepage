@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>CSS3登录注册切换动画模板 - 站长素材</title>
 
-You can use the [editor on GitHub](https://github.com/Mint-ku/homepage/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</head>
+<body>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div class="materialContainer">
+	<div class="box">
+		<div class="title">登录</div>
+		<div class="input">
+			<label for="name">用户名</label>
+			<input type="text" name="name" id="name">
+			<span class="spin"></span>
+		</div>
+		<div class="input">
+			<label for="pass">密码</label>
+			<input type="password" name="pass" id="pass">
+			<span class="spin"></span>
+		</div>
+		<div class="button login">
+			<button>
+				<span>登录</span>
+				<i class="fa fa-check"></i>
+			</button>
+		</div>
+		<a href="javascript:" class="pass-forgot">忘记密码？</a>
+	</div>
 
-```markdown
-Syntax highlighted code block
+	<div class="overbox">
+		<div class="material-button alt-2">
+			<span class="shape"></span>
+		</div>
+		<div class="title">注册</div>
+		<div class="input">
+			<label for="regname">用户名</label>
+			<input type="text" name="regname" id="regname">
+			<span class="spin"></span>
+		</div>
+		<div class="input">
+			<label for="regpass">密码</label>
+			<input type="password" name="regpass" id="regpass">
+			<span class="spin"></span>
+		</div>
+		<div class="input">
+			<label for="reregpass">确认密码</label>
+			<input type="password" name="reregpass" id="reregpass">
+			<span class="spin"></span>
+		</div>
+		<div class="button">
+			<button>
+				<span>注册</span>
+			</button>
+		</div>
+	</div>
 
-# Header 1
-## Header 2
-### Header 3
+</div>
 
-- Bulleted
-- List
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mint-ku/homepage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
